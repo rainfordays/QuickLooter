@@ -1,0 +1,2 @@
+# QuickLooter
+Quicker autoloot
