@@ -15,5 +15,6 @@ function A:LOOT_READY(autoloot)
 		for i = 1, GetNumLootItems() do
 			LootSlot(i)
 		end
+		CloseLoot()
 	end
 end
