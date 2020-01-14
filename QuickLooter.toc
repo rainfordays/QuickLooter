@@ -1,6 +1,6 @@
 ## Interface: 11303
 ## Title: QuickLooter
 ## Notes: Quicker autolooting
-## Version: 1
+## Version: 1.0
 
 QuickLooter.lua
