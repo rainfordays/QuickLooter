@@ -12,7 +12,7 @@ function A:LOOT_READY(autoloot)
 	if autoloot then
 		local method, masterPartyID = GetLootMethod()
 		if method == "master" and masterPartyID == 0 then return end
-		for i = 1, GetNumLootItems() do
+		for i = GetNumLootItems(), 1, -1 do
 			LootSlot(i)
 		end
 		CloseLoot()
